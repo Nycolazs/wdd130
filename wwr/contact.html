@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dry Oar Rafting</title>
+    <meta name="description" content="Contact Dry Oar Rafting for trip reservations, river directions, and guide assistance. Reach our team by phone, email, or our online contact form.">
+    <meta name="author" content="Pedro Nycolas Rocha">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/dryoar-logo.png" alt="Dry Oar Rafting logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-header">
+        <h1>Contact Dry Oar Rafting</h1>
+        <p>
+          We would love to hear from you! Whether you have questions regarding our river trips,
+          need help planning a custom expedition, or want driving directions to our boathouse,
+          our friendly crew is ready to assist you.
+        </p>
+      </section>
+
+      <section class="contact-info-section">
+        <h2>Company Information &amp; Location</h2>
+        <div class="contact-info-grid">
+          <div class="company-details">
+            <h3>Our River Headquarters</h3>
+            <p><strong>Address:</strong> 123 River Run Lane, Salmon, ID 83467</p>
+            <p><strong>Phone:</strong> (208) 555-0199</p>
+            <p><strong>Email:</strong> info@dryoar.com</p>
+            <p><strong>Hours of Operation:</strong></p>
+            <ul>
+              <li>Monday – Friday: 8:00 AM – 6:00 PM</li>
+              <li>Saturday: 8:00 AM – 4:00 PM</li>
+              <li>Sunday: Closed (Out on the River!)</li>
+            </ul>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91672.3385255406!2d-113.97858348633856!3d45.17646538466107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535805a41bf89659%3A0x6b3068e547fa9306!2sSalmon%2C%20ID%2083467!5e0!3m2!1sen!2sus!4v1716000000000!5m2!1sen!2sus"
+              width="380"
+              height="280"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Dry Oar Rafting Location Map in Salmon, Idaho"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+          <figure class="team-member">
+            <img src="images/employee1.jpg" alt="Mark Stevens, Lead River Guide">
+            <figcaption>
+              <strong>Mark Stevens</strong>
+              <span>Lead River Guide</span>
+            </figcaption>
+          </figure>
+          <figure class="team-member">
+            <img src="images/employee2.jpg" alt="Elena Rossi, Safety & Training Director">
+            <figcaption>
+              <strong>Elena Rossi</strong>
+              <span>Safety &amp; Training Director</span>
+            </figcaption>
+          </figure>
+          <figure class="team-member">
+            <img src="images/employee3.jpg" alt="Tyler Brooks, Operations & Bookings">
+            <figcaption>
+              <strong>Tyler Brooks</strong>
+              <span>Operations &amp; Bookings</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <h2>Send Us a Message</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="contact-name">Full Name:</label>
+              <input type="text" id="contact-name" name="user_name" required placeholder="Jane Doe">
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Email Address:</label>
+              <input type="email" id="contact-email" name="user_email" required placeholder="jane@example.com">
+            </div>
+          </div>
+
+          <fieldset class="form-purpose">
+            <legend>Purpose of Message:</legend>
+            <div class="radio-options">
+              <label>
+                <input type="radio" id="purpose-inquiry" name="purpose" value="general" checked>
+                General Inquiry
+              </label>
+              <label>
+                <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                Reservation Question
+              </label>
+              <label>
+                <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                Website Suggestion
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="form-field full-width">
+            <label for="contact-message">Message:</label>
+            <textarea id="contact-message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+          </div>
+
+          <div class="form-checkbox">
+            <input type="checkbox" id="subscribe-updates" name="subscribe" value="yes">
+            <label for="subscribe-updates">Please subscribe me to monthly river updates and discounts</label>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 | Dry Oar Rafting | Pedro Nycolas Rocha</p>
+      <nav class="socialmedia">
+        <a href="https://facebook.com">
+          <img src="images/facebook.svg" alt="Dry Oar Rafting on Facebook">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.svg" alt="Dry Oar Rafting on Instagram">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="images/linkedin.svg" alt="Dry Oar Rafting on LinkedIn">
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
